@@ -7,4 +7,4 @@ if side1<side2+side3 and side2<side1+side3 and side3<side1+side2:      #A triang
     Area = (s*(s-side1)*(s-side2)*(s-side3))**0.5
     print("The area of the triangle is =",Area)
 else:
-    print("Error ,A triangle is not possible with given sides")
+    print("Error ,A triangle is not possible with combination of given sides")
