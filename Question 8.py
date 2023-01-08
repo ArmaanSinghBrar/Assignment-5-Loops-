@@ -37,6 +37,5 @@ for Number in List:
     frequency[Number] += 1
   else:
     frequency[Number] = 1
-
 for Number, count in frequency.items():
   print(f"{Number} occurs {count} times")
