@@ -1,12 +1,10 @@
 #Creating a given pattern of alphabets
 Rows = int(input("Enter number of rows :"))
 alphabet = 65
-for i in range(Rows):
+for i in range(Rows+1):
     for j in range(i):
-        if alphabet<=90:
-            print(chr(alphabet),end=" ")
-            alphabet+=1
-        else:
+        if alphabet==91:
             alphabet=65
-            i+=2
+        print(chr(alphabet),end=" ")
+        alphabet+=1
     print("")
