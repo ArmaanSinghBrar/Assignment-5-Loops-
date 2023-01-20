@@ -1,4 +1,4 @@
-#Creating a given pattern of alphabets
+#Creating a right angled pattern of alphabets
 Rows = int(input("Enter number of rows :"))
 alphabet = 65
 for i in range(Rows+1):
